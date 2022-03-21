@@ -1,37 +1,49 @@
 <?php include("includes/header.php"); ?>
-<nav class="nav navbar-expand-sm bg-info sticky-top">
+<nav class="nav navbar-expand-md bg-info sticky-top">
     <div class="container-fluid p-4 ">
         <div class="row justify-content-between">
-            <a class="navbar-brand text-white px-4 font-weight-bold" href="#">EmeDev</a>
-            <ul class="nav ">
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Project</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contact</a>
-                </li>
-            </ul>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fab fa-facebook text-info"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fab fa-linkedin text-info"></i></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fab fa-twitter text-info border-info"></i></a>
-                </li>
-            </ul>
+            <a class="navbar-brand mt-1 text-white pl-3  font-weight-bold" href="#">EmeDev</a>
+            <button class="navbar-toggler btn btn-sm" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"><i class="fa fa-bars fa-2x text-white"></i></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="nav list-unstyled">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="nav list-unstyled">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://web.facebook.com/emeti.etim"><i
+                                class="fab fa-facebook text-white"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/emeti-etim-74a299123/"><i
+                                class="fab fa-linkedin text-white"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://twitter.com/emetisuccess"><i
+                                class="fab fa-twitter text-white border-info"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </div>
     </div>
 </nav>
 <div class="bg-img d-flex flex-container flex-row">
@@ -47,7 +59,6 @@
         </div>
     </div>
 </div>
-
 <div class="container my-4">
     <div class="feature">
         <div class="header my-5">
@@ -134,18 +145,15 @@
         </div>
         <div class="row mb-5">
             <div class="col-md-4 text-center ">
-                <i class="fa fa-dashboard fa-2x text-info"></i>
-                <h3>Fast</h3>
+                <img src="image/mycode.png" class="m-1 img-fluid" width="300px" height="300px" alt="">
                 <p>Building a blazing fast website is always my priority.</p>
             </div>
             <div class="col-md-4 text-center">
-                <i class="fa fa-mobile fa-2x text-info"></i>
-                <h3>Security</h3>
+                <img src="image/mycode.png" class="m-1 img-fluid" width="300px" height="300px" alt="">
                 <p>Building a well secured site has always being my goal.</p>
             </div>
             <div class="col-md-4 text-center">
-                <i class="fa fa-lightbulb-o fa-2x text-info"></i>
-                <h3>Intuitive</h3>
+                <img src="image/mycode.png" class="m-1 img-fluid" width="300px" height="300px" alt="">
                 <p>User friendly interface</p>
             </div>
         </div>
@@ -158,7 +166,7 @@
             <div class="col-md-8">
                 <div class="card border-0">
                     <div class="card-body">
-                        <form action="sendMail.php" method="post">
+                        <form action="message.php" method="post">
                             <div class="form-group">
                                 <input type="text" name="name" class="form-control" placeholder="Name">
                             </div>
