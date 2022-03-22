@@ -2,7 +2,7 @@
 <nav class="nav navbar-expand-md bg-info sticky-top">
     <div class="container-fluid p-4 ">
         <div class="row justify-content-between">
-            <a class="navbar-brand mt-1 text-white pl-3  font-weight-bold" href="#">EmeDev</a>
+            <a class="navbar-brand display-1 mt-1 text-white pl-3 font-weight-bold" href="#">EmeDev</a>
             <button class="navbar-toggler btn btn-sm" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"><i class="fa fa-bars fa-2x text-white"></i></span>
@@ -187,6 +187,7 @@
         </div>
     </div>
 </div>
+
 <?php include("includes/footer.php"); ?>
 
 <script>
