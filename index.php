@@ -2,7 +2,9 @@
 <nav class="nav navbar-expand-md bg-info sticky-top">
     <div class="container-fluid p-4 ">
         <div class="row justify-content-between">
-            <a class="navbar-brand display-1 mt-1 text-white pl-3 font-weight-bold" href="#">EmeDev</a>
+            <a class="navbar-brand   text-white pl-3 font-weight-bold" href="#">
+                <small class="display-4 logo">Emedev</small>
+            </a>
             <button class="navbar-toggler btn btn-sm" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"><i class="fa fa-bars fa-2x text-white"></i></span>
@@ -13,16 +15,16 @@
                         <a class="nav-link text-white" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Features</a>
+                        <a class="nav-link text-white" href="#feature">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">About</a>
+                        <a class="nav-link text-white" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Project</a>
+                        <a class="nav-link text-white" href="#project">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link text-white" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -60,10 +62,10 @@
 </div>
 <div class="container my-4">
     <div class="feature">
-        <div class="header my-5 text-center ">
+        <div class="header my-5 text-center">
             <h4>Features</h4>
         </div>
-        <div class="row mb-5">
+        <div class="row mb-5" id="feature">
             <div class="col-md-3 text-center ">
                 <i class="fa fa-dashboard fa-2x text-info"></i>
                 <h3>Fast</h3>
@@ -87,7 +89,7 @@
         </div>
     </div>
     <hr class="mb-4">
-    <div class="about">
+    <div class="about" id="about">
         <div class="header my-2">
             <h4 class="text-center">About me</h4>
         </div>
@@ -148,7 +150,7 @@
         </div>
     </div>
 
-    <div class="projects">
+    <div class="projects" id="project">
         <div class="header my-5">
             <h4 class="text-center">Projects</h4>
             <hr>
@@ -168,7 +170,7 @@
             </div>
         </div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="header mt-4">
             <h4 class="text-center">Contact me</h4>
         </div>
