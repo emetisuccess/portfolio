@@ -53,4 +53,10 @@ p {
     body {
         background-color: inherit;
     }
+
+    a .logo {
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
+
 }
