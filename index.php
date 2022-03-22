@@ -3,7 +3,6 @@
     <div class="container-fluid p-4 ">
         <div class="row justify-content-between">
             <a class="navbar-brand   text-white pl-3 font-weight-bold" href="#">
-                <img src="" alt="">
                 <small class="logo" style="font-size: 30px;">Emedev</small>
             </a>
             <button class="navbar-toggler btn btn-sm" type="button" data-bs-toggle="collapse"
