@@ -60,8 +60,8 @@
 </div>
 <div class="container my-4">
     <div class="feature">
-        <div class="header my-5">
-            <h4 class="text-center">Features</h4>
+        <div class="header my-5 text-center ">
+            <h4>Features</h4>
         </div>
         <div class="row mb-5">
             <div class="col-md-3 text-center ">
@@ -92,13 +92,24 @@
             <h4 class="text-center">About me</h4>
         </div>
         <div class="row mt-5">
-            <div class="col-md-6 text-center ">
+            <div class="col-md-5 text-center ">
                 <img src="image/IMG_20211216_080339_656.jpg" alt="image" class="bk-img img-fluid">
-                <h4>about me</h4>
-                <p>Building a blazing fast website is always my priority.</p>
+                <h4 class="my-2">Who's this Guy?</h4>
+                <p>
+                    Hi, i'm Emeti Etim, a backend developer from Akwa Ibom, Nigeria. I have passion for building a well
+                    secured web base applications, CMS systems and a dynamic UI.
+                </p>
+                <div class="text-center d-flex justify-content-center mb-4">
+                    <a class="nav-link" href="https://web.facebook.com/emeti.etim"><i
+                            class="fab fa-facebook text-info"></i></a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/emeti-etim-74a299123/"><i
+                            class="fab fa-linkedin text-info"></i></a>
+                    <a class="nav-link" href="https://twitter.com/emetisuccess"><i
+                            class="fab fa-twitter text-info"></i></a>
+                </div>
             </div>
-            <div class="col-md-6 text-center">
-                <h4>Proficiency (<?php echo (date("Y") - 2020) . "yrs+" ?>)</h4>
+            <div class="col-md-7 text-center">
+                <h4 class="mb-4">Proficiency (<?php echo (date("Y") - 2020) . "yrs+" ?>)</h4>
                 <div class="row justify-content-between">
                     <div class="col-md-4 mb-3">
                         <i class="fab fa-html5 text-danger fa-3x"></i>

@@ -10,6 +10,7 @@
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
          <link rel="stylesheet" href="style/bootstrap.css">
          <link rel="stylesheet" href="style/style.css">
+         <link rel="icon" type="image/png" sizes="16x16" href="image/favicon.ico">
          <title>Portfolio</title>
      </head>
 
