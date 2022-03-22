@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1.2rem;
 }
@@ -11,6 +15,11 @@ body {
 ::-webkit-scrollbar {
     display: none;
     width: 13px;
+}
+
+a .logo {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 p {
