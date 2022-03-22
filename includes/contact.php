@@ -8,7 +8,7 @@ if (isset($_POST["send"])) {
 
     mail($to, $subject, $body, $header);
 
-    // header("location: index.php");
+    header("location: index.php");
 }
 
 ?>
