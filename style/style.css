@@ -28,14 +28,17 @@ p {
     z-index: 3;
 }
 
-.container-flex {
-    margin: auto 25%;
-}
-
 .bk-img {
     border-radius: 50%;
     width: 300px;
     height: 300px;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 @media screen and (max-width: 800px) {
