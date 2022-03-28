@@ -155,8 +155,11 @@
             <h4 class="text-center">Projects</h4>
             <hr>
         </div>
-        <div class="row mb-5">
-            <div class="col-md-4 text-center ">
+        <div class=" mb-5">
+            <div>
+                <h1 class="text-center">Still Working On..</h1>
+            </div>
+            <!-- <div class="col-md-4 text-center ">
                 <img src="image/mycode.png" class="m-1 img-fluid" width="300px" height="300px" alt="">
                 <p>Building a blazing fast website is always my priority.</p>
             </div>
@@ -167,10 +170,11 @@
             <div class="col-md-4 text-center">
                 <img src="image/mycode.png" class="m-1 img-fluid" width="300px" height="300px" alt="">
                 <p>User friendly interface</p>
-            </div>
+            </div> -->
         </div>
+        <hr>
     </div>
-    <div class="contact" id="contact">
+    <div class="contact mt-5" id="contact">
         <?php include("includes/contact.php"); ?>
     </div>
 </div>
