@@ -42,7 +42,7 @@ try {
 
     // Setting the email content
     $mail->IsHTML(true);
-    $mail->Subject = "Testing Email sending format";
+    $mail->Subject = "Testing Email format";
     $mail->Body = 'i love HTML message body. <b>Gmail</b> SMTP email body.';
     $mail->AltBody = 'Plain text message body for non-HTML email client. Gmail SMTP email body.';
 
