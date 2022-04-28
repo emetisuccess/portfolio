@@ -42,23 +42,23 @@ if (isset($_POST['send'])) {
 
         try {
             // Server settings
-            // $mail->SMTPDebug = SMTP::DEBUG_SERVER; // for detailed debug output
-            // $mail->isSMTP();
-            // $mail->Host = 'smtp.mailtrap.io';
-            // $mail->Username = 'a6501e4ca437da'; // YOUR gmail email
-            // $mail->Password = '2e8fa7e22d2644'; // YOUR gmail password
-            // $mail->SMTPAuth = true;
-            // $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-            // $mail->Port = 2525;
-
             $mail->SMTPDebug = SMTP::DEBUG_SERVER; // for detailed debug output
             $mail->isSMTP();
-            $mail->Host = 'smtp.gmail.com';
-            $mail->Username = 'emetisuccess@gmail.com'; // YOUR gmail email
-            $mail->Password = '79396770'; // YOUR gmail password
+            $mail->Host = 'smtp.mailtrap.io';
+            $mail->Username = 'a6501e4ca437da'; // YOUR gmail email
+            $mail->Password = '2e8fa7e22d2644'; // YOUR gmail password
             $mail->SMTPAuth = true;
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-            $mail->Port = 587;
+            $mail->Port = 2525;
+
+            // $mail->SMTPDebug = SMTP::DEBUG_SERVER; // for detailed debug output
+            // $mail->isSMTP();
+            // $mail->Host = 'smtp.gmail.com';
+            // $mail->Username = 'emetisuccess@gmail.com'; // YOUR gmail email
+            // $mail->Password = '79396770'; // YOUR gmail password
+            // $mail->SMTPAuth = true;
+            // $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            // $mail->Port = 587;
 
 
             // Sender and recipient settings
