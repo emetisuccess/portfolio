@@ -1,3 +1,4 @@
+<?php include("functions.php"); ?>
 <div class="header mt-4">
     <h4 class="text-center">Contact me</h4>
 </div>
@@ -5,7 +6,11 @@
     <div class="col-md-8">
         <div class="card border-0">
             <div class="card-body">
+                <?php notify(); ?>
                 <form action="mail.php" method="post">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                    </div>
                     <div class="form-group">
                         <input type="text" name="subject" class="form-control" placeholder="Enter Subject">
                     </div>
