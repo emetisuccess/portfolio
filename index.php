@@ -180,7 +180,7 @@
         <hr>
     </div>
     <div class="contact mt-5" id="contact">
-        <?php include("includes/contact.php"); ?>
+        <?php include("contact.php"); ?>
     </div>
 </div>
 <?php include("includes/footer.php"); ?>
