@@ -80,7 +80,7 @@ if (isset($_POST['send'])) {
             header("Location: index.php");
         } catch (Exception $e) {
 
-            $_SESSION['error'] = "<p class='text-danger text-center'>Error in Sending Email. Mailer Error: {$mail->ErrorInfo}</p>";
+            $_SESSION['error'] = "<p class='text-danger text-center'>Failed To Send Mail</p>";
 
             // redirect to home page
             header("Location: index.php");
