@@ -1,6 +1,4 @@
 <?php
-
-
 function notify()
 {
     if (isset($_SESSION['check'])) {

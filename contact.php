@@ -7,22 +7,23 @@
         <div class="card border-0">
             <div class="card-body">
                 <?php notify(); ?>
-                <form action="mail.php" method="post">
+                <div class="notice"></div>
+                <form class="form">
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control" placeholder="Enter Name">
+                        <input type="text" name="name" class="form-control name" placeholder="Enter Name">
                     </div>
                     <div class="form-group">
-                        <input type="text" name="subject" class="form-control" placeholder="Enter Subject">
+                        <input type="text" name="subject" class="form-control subject" placeholder="Enter Subject">
                     </div>
                     <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="Email">
+                        <input type="email" name="email" class="form-control email" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <textarea name="message" placeholder="Message" id="" cols="30" rows="4"
-                            class="form-control"></textarea>
+                        <textarea name="message" placeholder="Message" cols="30" rows="4"
+                            class="form-control message"></textarea>
                     </div>
                     <div class="form-group">
-                        <input type="submit" name="send" value="Send" class="btn btn-info btn-block">
+                        <input type="button" value="Send" class="btn btn-info btn-block send">
                     </div>
                 </form>
             </div>

@@ -1,13 +1,5 @@
-<?php include("includes/header.php"); ?>
+<?php include("includes/config.php"); ?>
 <?php
-// the message
-// $msg = "First line of text\nSecond line of text";
-
-// // use wordwrap() if lines are longer than 70 characters
-// $msg = wordwrap($msg, 70);
-
-// // send email
-// mail("emetisuccess@gmail.com", "Emeti Etim is trying very hard", $msg);
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -31,7 +23,8 @@ if (isset($_POST['send'])) {
         or empty($email) or empty($message)
     ) {
         // check for empty fields;
-        $_SESSION['check'] = "<p class='text-danger text-center'>All Fields Are Required</p>";
+        // $_SESSION['check'
+        echo "<p class='text-danger text-center'>All Fields Are Required</p>";
 
         // redirect to home page
         header("Location: index.php");
@@ -51,16 +44,6 @@ if (isset($_POST['send'])) {
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 2525;
 
-            // $mail->SMTPDebug = SMTP::DEBUG_SERVER; // for detailed debug output
-            // $mail->isSMTP();
-            // $mail->Host = 'smtp.gmail.com';
-            // $mail->Username = 'emetisuccess@gmail.com'; // YOUR gmail email
-            // $mail->Password = '79396770'; // YOUR gmail password
-            // $mail->SMTPAuth = true;
-            // $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-            // $mail->Port = 587;
-
-
             // Sender and recipient settings
             $mail->setFrom($email, $name);
             $mail->addAddress('emetisuccess@gmail.com', 'Emeti Etim');
@@ -74,16 +57,18 @@ if (isset($_POST['send'])) {
 
             $mail->send();
 
-            $_SESSION['success'] = "<p class='text-success text-center'>Message Successfully Sent.</p>";
+            // $_SESSION['success']
+            echo "<p class='text-success text-center'>Message Successfully Sent.</p>";
 
             // redirect to home page
-            header("Location: index.php");
+            // header("Location: index.php");
         } catch (Exception $e) {
 
-            $_SESSION['error'] = "<p class='text-danger text-center'>Failed To Send Mail</p>";
+            // $_SESSION['error'] = 
+            echo "<p class='text-danger text-center'>Failed To Send Mail</p>";
 
             // redirect to home page
-            header("Location: index.php");
+            // header("Location: index.php");
         }
     }
 }

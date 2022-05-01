@@ -54,10 +54,10 @@
             <h3 class="text-white display-4">Emeti Etim</h3>
             <small class="text-white display-4 ">Backend Developer</small>
         </div>
-        <div class="flex-item text-center">
+        <!-- <div class="flex-item text-center">
             <a href="#" class="btn btn-lg text-white mx-1 my-1  btn-outline-info px-4">Portfolio</a>
             <a href="#" class="btn btn-lg text-light mx-1 my-1 btn-outline-info px-4">Skills</a>
-        </div>
+        </div> -->
     </div>
 </div>
 <div class="container my-4">
