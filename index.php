@@ -10,7 +10,7 @@
                 <span class="navbar-toggler-icon"><i class="fa fa-bars fa-2x text-white"></i></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                <ul class="nav list-unstyled">
+                <ul class="nav list-unstyled small">
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Home</a>
                     </li>
@@ -29,7 +29,7 @@
                 </ul>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                <ul class="nav list-unstyled">
+                <ul class="nav list-unstyled small-center">
                     <li class="nav-item">
                         <a class="nav-link" href="https://web.facebook.com/emeti.etim"><i
                                 class="fab fa-facebook text-white"></i></a>
@@ -119,27 +119,27 @@
                 <h4 class="mb-4">Proficiency (<?php echo (date("Y") - 2020) . "yrs+" ?>)</h4>
                 <div class="row justify-content-between">
                     <div class="col-md-4 mb-3">
-                        <i class="fab fa-html5 text-danger fa-3x"></i>
+                        <i class="fab fa-html5 text-danger fa-3x skill"></i>
                         <p>HTML5</p>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <i class="fab fa-css3 text-info fa-3x"></i>
+                        <i class="fab fa-css3 text-info fa-3x skill"></i>
                         <p>CSS3</p>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <i class="fab fa-bootstrap text-info fa-3x"></i>
+                        <i class="fab fa-bootstrap text-info fa-3x skill"></i>
                         <p>Bootstrap</p>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <i class="fa fa-database text-success fa-3x"></i>
+                        <i class="fa fa-database text-success fa-3x skill"></i>
                         <p>MySqli</p>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <i class="fab fa-php text-secondary fa-3x"></i>
+                        <i class="fab fa-php text-secondary fa-3x skill"></i>
                         <p>PHP</p>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <i class="fab fa-js text-warning fa-3x"></i>
+                        <i class="fab fa-js text-warning fa-3x skill"></i>
                         <p>JavaScript</p>
                     </div>
                     <!-- <div class="col-md-4 mb-3">
@@ -147,7 +147,7 @@
                                 <p>Laravel</p>
                             </div> -->
                     <div class="col-md-4 mb-3">
-                        <i class="fab fa-github fa-3x" aria-hidden="true"></i>
+                        <i class="fab fa-github fa-3x skill" aria-hidden="true"></i>
                         <p>Github</p>
                     </div>
                 </div>
