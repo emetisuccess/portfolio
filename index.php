@@ -142,13 +142,21 @@
                         <i class="fab fa-js text-warning fa-3x skill"></i>
                         <p>JavaScript</p>
                     </div>
+                    <div class="col-md-4 mb-3">
+                        <i class="fab fa-js text-dark fa-3x skill"></i>
+                        <p>Ajax</p>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <i class="fab fa-js text-danger fa-3x skill"></i>
+                        <p>jQuery</p>
+                    </div>
                     <!-- <div class="col-md-4 mb-3">
-                                <i class="fab fa-laravel text-danger fa-3x"></i>
-                                <p>Laravel</p>
-                            </div> -->
+                        <i class="fab fa-laravel text-danger fa-3x"></i>
+                        <p>Laravel</p>
+                    </div> -->
                     <div class="col-md-4 mb-3">
                         <i class="fab fa-github fa-3x skill" aria-hidden="true"></i>
-                        <p>Github</p>
+                        <p>Git</p>
                     </div>
                 </div>
             </div>

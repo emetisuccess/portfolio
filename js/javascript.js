@@ -22,7 +22,7 @@ $(document).ready(function () {
         let message = $(".message").val();
 
         // console.log(name, email, subject, message);
-        if (name == "" && email == "" && subject == "" && message == "") {
+        if (name == "" || email == "" || subject == "" || message == "") {
             let notice = "<p class='text-danger text-center'>All fields are Required</p>";
             $(".notice").html(notice);
 
