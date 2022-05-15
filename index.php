@@ -111,7 +111,7 @@
                             class="fab fa-twitter text-info"></i></a>
                 </div>
                 <div class="mb-4 text-style ">
-                    <a href="image/Emeti-Etim.pdf" class="text-info">My CV</a>
+                    <a href="image/etimemeti.pdf" class="text-info">My CV</a>
                 </div>
 
             </div>
