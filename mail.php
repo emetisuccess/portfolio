@@ -10,6 +10,9 @@ require_once __DIR__ . '/vendor/phpmailer/src/PHPMailer.php';
 require_once __DIR__ . '/vendor/phpmailer/src/SMTP.php';
 
 
+
+$error = ["name" => "", "subject" => "", "email" => "", "message" => ""];
+
 if (isset($_POST['send'])) {
 
     $name = $_POST['name'];
@@ -17,17 +20,12 @@ if (isset($_POST['send'])) {
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-
+    // check for empty fields;
     if (
         empty($name) or empty($subject)
         or empty($email) or empty($message)
     ) {
-        // check for empty fields;
-        // $_SESSION['check'
         echo "<p class='text-danger text-center'>All Fields Are Required</p>";
-
-        // redirect to home page
-        header("Location: index.php");
     } else {
 
         // passing true in constructor enables exceptions in PHPMailer
@@ -53,22 +51,12 @@ if (isset($_POST['send'])) {
             $mail->IsHTML(true);
             $mail->Subject = $subject;
             $mail->Body = $message;
-            // $mail->AltBody = 'Plain text message body for non-HTML email client. Gmail SMTP email body.';
+
 
             $mail->send();
-
-            // $_SESSION['success']
             echo "<p class='text-success text-center'>Message Successfully Sent.</p>";
-
-            // redirect to home page
-            // header("Location: index.php");
         } catch (Exception $e) {
-
-            // $_SESSION['error'] = 
             echo "<p class='text-danger text-center'>Failed To Send Mail</p>";
-
-            // redirect to home page
-            // header("Location: index.php");
         }
     }
 }
